@@ -130,7 +130,7 @@
             // | GUI | CTRL | SHFT | LWR | SPC |   | ENT | RSE  | BKSP | ALT | ESC |
 
             bindings = <
-&kp ESC             &kp Q  &kp W  &kp E     &kp R      &kp T        &kp Y      &kp U            &kp I          &kp O    &kp P     &kp BACKSPACE
+&kp ESC             &kp Q  &kp W  &kp E     &kp R      &kp T        &kp Y      &kp U            &kp I          &kp O    &kp P     &sk RCTRL
 &sk LEFT_CONTROL    &kp A  &kp S  &kp D     &kp F      &kp G        &kp H      &kp J            &kp K          &kp L    &kp SEMI  &kp SQT
 &td_shift_capsword  &kp Z  &kp X  &kp C     &kp V      &kp B        &kp N      &kp M            &kp COMMA      &kp DOT  &kp FSLH  &sk RSHFT
                                   &kp LGUI  &lt 1 TAB  &kp ENTER    &kp SPACE  &lt 2 BACKSPACE  &sk RIGHT_ALT
