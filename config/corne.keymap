@@ -66,7 +66,7 @@
             label = "LT_RPI";
             #binding-cells = <2>;
             tapping-term-ms = <200>;
-            quick-tap-ms = <145>;
+            quick-tap-ms = <175>;
             require-prior-idle-ms = <125>;
             flavor = "tap-preferred";
             bindings = <&mo>, <&kp>;
@@ -175,10 +175,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &kp EXCL  &kp AT          &kp HASH        &kp DLLR         &kp PRCNT    &kp CARET  &kp AMPS   &kp ASTRK  &kp LEFT_PARENTHESIS  &kp RPAR  &trans
-&trans  &trans    &kp HOME        &kp UP_ARROW    &kp END          &kp GRAVE    &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT              &kp BSLH  &trans
-&trans  &trans    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp TILDE    &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC              &kp PIPE  &trans
-                                  &trans          &trans           &trans       &trans     &trans     &trans
+&trans  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS   &kp ASTRK  &kp LEFT_PARENTHESIS  &kp RPAR  &trans
+&trans  &trans    &trans  &trans    &trans    &kp GRAVE    &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT              &kp BSLH  &trans
+&trans  &trans    &trans  &trans    &trans    &kp TILDE    &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC              &kp PIPE  &trans
+                          &trans    &trans    &trans       &trans     &trans     &trans
             >;
         };
 
