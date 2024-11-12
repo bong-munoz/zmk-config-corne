@@ -200,6 +200,8 @@
 &trans  &kp F10  &kp F1  &kp F2      &kp F3     &kp PAUSE_BREAK    &trans  &trans     &trans     &trans    &trans    &trans
                          &kp K_MENU  &kp SPACE  &kp TAB            &trans  &trans     &trans
             >;
+
+            label = "Func";
         };
 
         MED {
@@ -209,6 +211,8 @@
 &trans  &trans    &trans    &trans     &trans     &trans    &out OUT_TOG    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &trans
                             &trans     &trans     &trans    &trans          &trans        &kp K_MUTE
             >;
+
+            label = "Media";
         };
     };
 
